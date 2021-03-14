@@ -1,3 +1,5 @@
+'use strict';
+
 const array = [ ...Array(100).keys() ].map( i => i + 1);
 
 function binary_search(list, item) {
